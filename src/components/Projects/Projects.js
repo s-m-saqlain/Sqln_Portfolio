@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 import leaf from "../../Assets/Projects/mariya.png";
+import slider from "../../Assets/Projects/slider.png";
 import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
 import editor from "../../Assets/Projects/social.png";
@@ -30,7 +31,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Pharma Career Hub"
-              description="Developed a job aggregation platform for the pharmaceutical industry that scrapes job listings from LinkedIn, Indeed, and other pharma-specific job boards. The data is stored in a database and updated daily through a cron job. An admin panel was also created, allowing administrators to add or remove job postings, manage registered users, and view comments on the jobs listed on the platform."
+              description="Led the development of a robust job aggregation platform tailored for the pharmaceutical industry, utilizing Nuxt.js, the Composition API, and TypeScript an admin panel was developed, enabling administrators to manage job postings, oversee registered users, and moderate comments on job listings, ensuring comprehensive management and user engagement."
               ghLink="https://github.com/s-m-saqlain/Job-Tracker-Admin-Panel"
               demoLink="https://job-tracker-admin-panel.vercel.app/"
             />
@@ -41,7 +42,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Billing Payments"
-              description="Contributed to the Family Hub project by developing the Family Handbook module. This platform enables users to create a personalized handbook for their family, featuring modules for a cover page, introduction, family member profiles, vision and mission statements, constitution, summary and etc. Users can select from various templates and designs to customize their handbook. The project includes generating tailored, written documents that reflect family identification and values, with the final product being a professionally formatted PDF generated from the backend."
+              description="Converted Figma designs into fully responsive and dynamic applications using Vue.js, Nuxt.js, Tailwind CSS, the Composition API, and TypeScript. Developed optimized layouts to ensure seamless user experiences across all devices, including mobile, tablet, and desktop, by leveraging the responsive capabilities of Tailwind CSS within the Vue.js and Nuxt.js frameworks."
               ghLink="https://github.com/s-m-saqlain/Billing-Payments"
               demoLink="https://billing-payments.vercel.app/"
             />
@@ -52,7 +53,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Invest in theFuture Of Financewith SocialTrader"
-              description="Built an e-commerce platform supporting multi-user registration for buyers and sellers. Integrated Stripe for secure online payments, ensuring smooth and safe financial transactions. Created an admin panel for user management, product oversight, and transaction monitoring, enhancing administrative control."
+              description="Transformed Figma designs into highly responsive and interactive applications using Vue.js, Nuxt.js, Tailwind CSS, TypeScript, and the Composition API. Created adaptive layouts to deliver consistent and user-friendly experiences  Additionally, developed a custom comment box using Tailwind CSS to enhance user interaction and feedback capabilities."
               ghLink="https://github.com/s-m-saqlain/Social_Trader"
               demoLink="https://social-trader-ruddy.vercel.app/"              
             />
@@ -63,9 +64,20 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Construction"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Transformed Figma designs into dynamic, fully responsive applications utilizing Vue.js, Nuxt.js, Tailwind CSS, the Composition API, and TypeScript. Designed and implemented layouts optimized for seamless user experiences across all devices, including mobile, tablet, and desktop, by leveraging Tailwind CSS's responsive features within Vue.js and Nuxt.js. Also developed an elegant and interactive box component with dynamic hover effects, enhancing user engagement."
               // ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://construction-gamma-two.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={slider}
+              isBlog={false}
+              title="5cube"
+              description="In this project, I developed the complete website for my company, 5Cube, using Nuxt.js (Composition API), TypeScript, and Tailwind CSS. The website features a sophisticated slider, a services page with interactive buttons that dynamically scroll to display different components within the page, and a fully functional contact us page. For the contact page, I implemented a Vue library to create a dropdown showcasing a comprehensive list of international phone codes with corresponding flags. Additionally, checkboxes are designed to be responsive, transforming into dropdowns on laptop and mobile screens. Selected options from the dropdown appear in the input fields alongside a cancel SVG icon, allowing users to remove selections easily. (The website is currently in progress and not yet fully launched.)"
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://5cube.io/"
             />
           </Col>
 
